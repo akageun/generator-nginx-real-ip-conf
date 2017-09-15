@@ -3,7 +3,7 @@
 AWS_IP_RANGE_API="https://ip-ranges.amazonaws.com/ip-ranges.json"
 NGINX_CONF_FILE_PATH="/etc/nginx/conf.d/"
 NGINX_CONF_FILE_NM="sample_real_ip.conf"
-ELB_IP_LIST="110.0.0.0/8,172.16.0.0/12,192.168.0.0/16"
+ELB_IP_LIST="10.0.0.0/8,172.16.0.0/12,192.168.0.0/16"
 
 function is_root_run
 {

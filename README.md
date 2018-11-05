@@ -7,18 +7,22 @@ DESC
 
 Dependency
 -------------
-> jq[https://stedolan.github.io/jq/]
+> [jq](https://stedolan.github.io/jq/)
 
 
 HOW TO RUN
 -------------
-> sudo ./make_nginx_real_ip_conf.sh
+```
+git clone https://github.com/akageun/generator-nginx-real-ip-conf
+chmod 755 ./generator_real_ip.sh
+sudo ./generator_real_ip.sh
+```
 
 
 HOW TO USE
 -------------
-> Add 'include /etc/nginx/conf.d/sample_real_ip.conf' in your nginx conf file.
+> Add 'include /etc/nginx/conf.d/sample_real_ip.inc;' in your nginx conf file.
 
 TODO
 -------------
-i will change this source to "python 3"
+-[ ] i will change this source to "python 3"
